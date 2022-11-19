@@ -1,0 +1,9 @@
+{application, 'fcm', [
+	{description, ""},
+	{vsn, "1.2.1"},
+	{modules, ['fcm','fcm_api_legacy','fcm_api_v1','fcm_app','fcm_sup']},
+	{registered, [fcm_sup]},
+	{applications, [kernel,stdlib,lager,jsx,google_oauth]},
+	{mod, {fcm_app, []}},
+	{env, []}
+]}.
