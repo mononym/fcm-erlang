@@ -2449,30 +2449,6 @@ pkg_kvs_fetch = git
 pkg_kvs_repo = https://github.com/synrc/kvs
 pkg_kvs_commit = master
 
-PACKAGES += lager
-pkg_lager_name = lager
-pkg_lager_description = A logging framework for Erlang/OTP.
-pkg_lager_homepage = https://github.com/erlang-lager/lager
-pkg_lager_fetch = git
-pkg_lager_repo = https://github.com/erlang-lager/lager
-pkg_lager_commit = master
-
-PACKAGES += lager_amqp_backend
-pkg_lager_amqp_backend_name = lager_amqp_backend
-pkg_lager_amqp_backend_description = AMQP RabbitMQ Lager backend
-pkg_lager_amqp_backend_homepage = https://github.com/jbrisbin/lager_amqp_backend
-pkg_lager_amqp_backend_fetch = git
-pkg_lager_amqp_backend_repo = https://github.com/jbrisbin/lager_amqp_backend
-pkg_lager_amqp_backend_commit = master
-
-PACKAGES += lager_syslog
-pkg_lager_syslog_name = lager_syslog
-pkg_lager_syslog_description = Syslog backend for lager
-pkg_lager_syslog_homepage = https://github.com/erlang-lager/lager_syslog
-pkg_lager_syslog_fetch = git
-pkg_lager_syslog_repo = https://github.com/erlang-lager/lager_syslog
-pkg_lager_syslog_commit = master
-
 PACKAGES += lambdapad
 pkg_lambdapad_name = lambdapad
 pkg_lambdapad_description = Static site generator using Erlang. Yes, Erlang.
